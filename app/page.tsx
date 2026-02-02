@@ -8,15 +8,17 @@ export default function Home() {
       </h1>
 
       <p className="text-lg text-gray-600">
-        Personal portfolio & timeline
+        Personal portfolio & academic timeline
       </p>
 
-      <Link
-        href="/about"
-        className="text-blue-600 underline"
-      >
-        About Me
-      </Link>
+      <div className="flex gap-4">
+        <Link href="/about" className="text-blue-600 underline">
+          About Me
+        </Link>
+        <Link href="/timeline" className="text-blue-600 underline">
+          Timeline
+        </Link>
+      </div>
     </main>
   );
 }
