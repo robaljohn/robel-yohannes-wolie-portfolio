@@ -5,27 +5,54 @@ export default function HomePage() {
     <main className="max-w-5xl mx-auto px-6 py-16">
 
       {/* Social icons */}
-      <div className="flex items-center space-x-4 mb-8">
-        <a href="mailto:robaljohn.com@gmail.com">
-          <img src="/icons/email.svg" alt="Email" className="h-5 w-5" />
-        </a>
+<div className="flex items-center space-x-4 mb-8 text-black">
 
-        <a href="https://github.com/robaljohn" target="_blank" rel="noreferrer">
-          <img src="/icons/github.svg" alt="GitHub" className="h-5 w-5" />
-        </a>
+  <a
+    href="mailto:robaljohn.com@gmail.com"
+    aria-label="Email"
+    className="hover:opacity-70"
+  >
+    <img src="/icons/email.svg" className="h-5 w-5" />
+  </a>
 
-        <a
-          href="https://www.linkedin.com/in/robajohn2000"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="/icons/linkedin.svg" alt="LinkedIn" className="h-5 w-5" />
-        </a>
+  <a
+    href="https://github.com/robaljohn"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="GitHub"
+    className="hover:opacity-70"
+  >
+    <img src="/icons/github.svg" className="h-5 w-5" />
+  </a>
 
-        <a href="https://x.com/YOUR_USERNAME" target="_blank" rel="noreferrer">
-          <img src="/icons/x.svg" alt="X" className="h-5 w-5" />
-        </a>
-      </div>
+  <a
+    href="https://www.linkedin.com/in/robajohn2000"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="LinkedIn"
+    className="hover:opacity-70"
+  >
+    <img src="/icons/linkedin.svg" className="h-5 w-5" />
+  </a>
+
+  <a
+    href="https://x.com/YOUR_USERNAME"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="X"
+    className="hover:opacity-70"
+  >
+    <img src="/icons/x.svg" className="h-5 w-5" />
+  </a>
+
+  <a
+    href="/rss.xml"
+    aria-label="RSS"
+    className="hover:opacity-70"
+  >
+    <img src="/icons/rss.svg" className="h-5 w-5" />
+  </a>
+</div>
 
       {/* Top navigation */}
       <nav className="flex justify-end space-x-6 text-sm text-gray-600 mb-16">
