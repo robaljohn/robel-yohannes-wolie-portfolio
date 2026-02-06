@@ -3,16 +3,36 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <main className="max-w-5xl mx-auto px-6 py-16">
+
+      {/* Social icons */}
+      <div className="flex items-center space-x-4 mb-8">
+        <a href="mailto:robaljohn.com@gmail.com">
+          <img src="/icons/email.svg" alt="Email" className="h-5 w-5" />
+        </a>
+
+        <a href="https://github.com/robaljohn" target="_blank" rel="noreferrer">
+          <img src="/icons/github.svg" alt="GitHub" className="h-5 w-5" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/robajohn2000"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="/icons/linkedin.svg" alt="LinkedIn" className="h-5 w-5" />
+        </a>
+
+        <a href="https://x.com/YOUR_USERNAME" target="_blank" rel="noreferrer">
+          <img src="/icons/x.svg" alt="X" className="h-5 w-5" />
+        </a>
+      </div>
+
       {/* Top navigation */}
       <nav className="flex justify-end space-x-6 text-sm text-gray-600 mb-16">
         <Link href="/about" className="hover:underline">about</Link>
         <Link href="/timeline" className="hover:underline">timeline</Link>
         <Link href="/projects" className="hover:underline">projects</Link>
-        <a
-          href="/cv.pdf"
-          className="hover:underline"
-          target="_blank"
-        >
+        <a href="/cv.pdf" className="hover:underline" target="_blank">
           cv
         </a>
       </nav>
@@ -40,7 +60,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* Right image (optional) */}
+        {/* Right image */}
         <div>
           <img
             src="/photo_website.jpg"
