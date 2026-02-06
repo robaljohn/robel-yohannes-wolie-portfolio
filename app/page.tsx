@@ -49,12 +49,12 @@ export default function HomePage() {
       <section className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
         {/* Left text */}
         <div className="md:col-span-2">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-4xl font-semibold mb-4 leading-tight">
             Robel Yohannes Wolie
           </h1>
 
-          <p className="text-sm text-gray-600 mb-6">
-            Data Science Student | Digital Economics & Business, Italy
+          <p className="text-gray-800 leading-7">
+            Digital Economics & Business |Data science , Italy
           </p>
 
           <p className="text-gray-800 leading-relaxed">
