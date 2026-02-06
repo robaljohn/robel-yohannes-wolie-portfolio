@@ -33,6 +33,10 @@ export default function HomePage() {
 
       {/* Top navigation */}
       <nav className="flex justify-end space-x-6 text-sm text-gray-600 mb-16">
+        <Link href="/certifications" className="hover:underline">
+  certifications
+</Link>
+
         <Link href="/about" className="hover:underline">about</Link>
         <Link href="/timeline" className="hover:underline">timeline</Link>
         <Link href="/projects" className="hover:underline">projects</Link>
