@@ -7,52 +7,29 @@ export default function HomePage() {
       {/* Social icons */}
 <div className="flex items-center space-x-4 mb-8 text-black">
 
-  <a
-    href="mailto:robaljohn.com@gmail.com"
-    aria-label="Email"
-    className="hover:opacity-70"
-  >
-    <img src="/icons/email.svg" className="h-5 w-5" />
+  {/* Email */}
+  <a href="mailto:robaljohn.com@gmail.com" aria-label="Email">
+    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M2 4h20v16H2V4zm10 7L4 6v12h16V6l-8 5z" />
+    </svg>
   </a>
 
-  <a
-    href="https://github.com/robaljohn"
-    target="_blank"
-    rel="noreferrer"
-    aria-label="GitHub"
-    className="hover:opacity-70"
-  >
-    <img src="/icons/github.svg" className="h-5 w-5" />
+  {/* GitHub */}
+  <a href="https://github.com/robaljohn" target="_blank" rel="noreferrer">
+    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.43 7.86 10.96.57.1.78-.25.78-.55v-2.1c-3.2.7-3.88-1.54-3.88-1.54-.52-1.34-1.27-1.7-1.27-1.7-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.25 3.32.95.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.18a10.9 10.9 0 015.72 0c2.18-1.49 3.14-1.18 3.14-1.18.62 1.57.23 2.73.11 3.02.73.81 1.18 1.84 1.18 3.1 0 4.43-2.68 5.4-5.23 5.69.41.36.77 1.07.77 2.16v3.2c0 .3.21.66.79.55 4.57-1.53 7.85-5.86 7.85-10.96C23.5 5.74 18.27.5 12 .5z"/>
+    </svg>
   </a>
 
-  <a
-    href="https://www.linkedin.com/in/robajohn2000"
-    target="_blank"
-    rel="noreferrer"
-    aria-label="LinkedIn"
-    className="hover:opacity-70"
-  >
-    <img src="/icons/linkedin.svg" className="h-5 w-5" />
+  {/* LinkedIn */}
+  <a href="https://www.linkedin.com/in/robajohn2000" target="_blank" rel="noreferrer">
+    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.27 2.3-2.6 4.73-2.6C22.4 7.6 24 10.3 24 14.3V24h-5v-8.4c0-2-.04-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.4V24h-5V8z"/>
+    </svg>
   </a>
 
-  <a
-    href="https://x.com/YOUR_USERNAME"
-    target="_blank"
-    rel="noreferrer"
-    aria-label="X"
-    className="hover:opacity-70"
-  >
-    <img src="/icons/x.svg" className="h-5 w-5" />
-  </a>
-
-  <a
-    href="/rss.xml"
-    aria-label="RSS"
-    className="hover:opacity-70"
-  >
-    <img src="/icons/rss.svg" className="h-5 w-5" />
-  </a>
 </div>
+
 
       {/* Top navigation */}
       <nav className="flex justify-end space-x-6 text-sm text-gray-600 mb-16">
